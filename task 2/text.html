@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body {
+                background-color:rgba(43, 133, 168, 0.864);
+            }
+            .word {
+                color: rgba(255, 255, 255, 0.893);
+                margin-left: 15px;
+            }
+
+            .cube-0 {
+                display: flex;
+                float: left;
+                border-left: 5px solid rgba(255, 255, 255, 0.932);
+                height: 150px;
+                
+            }
+           
+            .cube-1 {
+                display: flex;
+                float: left;
+                width: 20%;
+                height: 100%;
+                margin-top: 100px;
+                margin-left: 100px;
+            }
+
+            .cube-2 {
+                float: left;
+                border: 2px solid rgba(255, 255, 255, 0.929);
+                width: 400px;
+                padding: 20px;
+                margin-left: 30px;
+                margin-top: 30px;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255    , 0.851);
+            }
+
+            .login_input {
+                border: none;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.875);
+            }
+
+            .btn-text-center {
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                margin-left: 90px;
+                background-color: rgba(135, 207, 235, 0.941);
+                
+            }
+                
+        </style>
+    </head>
+    <body>
+        <div class="background">
+        <div class="container">
+            <div class="cube-1">
+                <div class="cube-0"></div>
+                <h1 class="word">Simple Login Form HTML & CSS</h1>
+            </div>
+        </div>
+            <form class="login">
+            <div class="cube-2">
+                <h2 style="text-align: center;">Login</h2>
+                <hr>
+                <input type="text" class="login_input" placeholder="Username" style="margin-left: 20px;"><br><br>
+                <input type="password" class="login_input" placeholder="Password" style="margin-left: 20px;"><br><br>
+                <p style="margin-left: 20px;">Forget Password?</p>
+                <button class="btn-text-center">Login</button>
+                <p style="text-align: center;">Not a Member?<a href="">Signup</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
